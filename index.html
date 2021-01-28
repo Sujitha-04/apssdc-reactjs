@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title> Sample Title </title>
+		<link rel="icon"  href="indonesia.svg" />
+		<style type="text/css">
+			.parent{
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+			.child{
+				border: 1px solid red;
+				font-size: 25px;
+				padding: 1%;
+				margin: 1%;
+				background-color: lightpink;
+				justify-content: space-between;
+			}
+			
+			/*Small scale devices.*/
+			@media only screen and (min-width: 320px) and (max-width: 480px){
+				.child{
+					width: 25%;
+					font-weight: 100;
+					border: 2px solid red;
+					border-radius: 10px;
+					box-shadow: 5px 5px #494444 
+
+				}
+			}
+			/*Medium scale devices.*/
+			@media only screen and (min-width: 481px) and (max-width: 767px){
+				.child{
+					width: 45%;
+					font-weight: 300;
+					border: 2px solid #000;
+					border-radius: 10px;
+					box-shadow: 5px 5px #494444 
+
+				}
+			}
+			/*Largescale devices.*/
+			@media only screen and (min-width: 768px) and (max-width: 1023px){
+				.child{
+					width: 75%;
+					font-weight: 500;
+					border: 2px solid violet;
+					border-radius: 10px;
+					box-shadow: 0px 8px 8px -8px #000;
+
+				}
+			}
+		</style>
+		<meta charset="iso-8859-9"/>
+		<meta name='viewport' content='width=device-width, initial-scale=1'/>
+		</head>
+	<body >
+		<div>
+			<section class="parent">
+				<article class="child"> Mango </article>
+				<article class="child"> Apple </article>
+				<article class="child"> Orange </article>
+				<article class="child"> Banana </article>
+				<article class="child"> Grapes </article>
+			</section>
+
+				<!--<p> Paragraph-1 </p>
+
+				<p> Paragraph-2 </p>
+				
+				<p> Paragraph-3 </p>-->
+		</div>
+	<!--<p id="p" style="font-size: 50px;"> Paragraph - 1</p>
+	<h1 id="p"> Heading </h1>
+    <h1>Hello</h1>
+   <p>In Japanese language: こんにちは</p>
+   <span>Span Element-1</span>
+   <span>Span Element-2</span> 
+   <img src="indonesia.svg" alt="user" width="150px" />
+   a<sup>2</sup>
+   H<sub>2</sub>O
+   <h2>Heading-2</h2>
+   <table>
+   	<caption>Table-1</caption>
+   </table>
+   <table>
+   	<caption>Table-2</caption>
+   </table>
+   <p>Sample Paragraph-1</p>
+   <p>Sample Paragraph-2</p>
+   <header></header>
+   <main>
+   	<nav></nav>
+   	<section></section>
+   	<article></article>
+   	<aside></aside>
+   </main>
+   <footer></footer> -->
+</body>
+</html>
